@@ -129,6 +129,9 @@ footer {
 .block {
     display: block;
 }
+#quotient{
+    margin-bottom: 50px;
+}
 
 /* ID Selectors */
 
