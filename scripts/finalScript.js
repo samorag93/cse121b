@@ -113,7 +113,7 @@ prevButton.addEventListener("click", () => {
         currentQuestionIndex--;
         displayQuestion();
         const resultLabel = document.getElementById("result-label");
-        resultLabel.style.display = "none"; // Oculta la etiqueta de respuesta al retroceder a la pregunta anterior
+        resultLabel.style.display = "none"; 
     }
 });
 
@@ -125,7 +125,7 @@ nextButton.addEventListener("click", () => {
         if (score < 5) {
             alert("Your score is too low try again");
         }else {
-            alert("Has respondido todas las preguntas. ¡Juego terminado!");
+            alert("You have finished the Game, well done!");
         // Aquí puedes reiniciar el juego o realizar alguna otra acción
         }
     }
