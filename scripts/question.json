@@ -1,52 +1,62 @@
 [
     {
-        "question" : "Who translated the Book of Mormon?",
+        "question" : "1. Who translated the Book of Mormon?",
         "options" : ["Mormon","Moroni","Nefi","Joseph Smith"],
-        "answer" : 3
+        "answer" : 3,
+        "track" : "Check the Introduccion the Book of Mormon"
     },
     {
-        "question" : "Who demanded a sign from Alma the Younger?",
+        "question" : "2. Who demanded a sign from Alma the Younger?",
         "options" : ["Ammon", "Helaman","Korihor","Zerahemnah"],
-        "answer" : 3
+        "answer" : 2,
+        "track" : "Check Alma 30:43"
     },
     {
-        "question" : "What is the longest chapter in the Book of Mormon?",
+        "question" : "3. What is the longest chapter in the Book of Mormon?",
         "options" : ["Jacob 5","2 Nephi 31","Omni 1","Alma 63"],
-        "answer" : 0
+        "answer" : 1,
+        "track" : "Read each chapter if necessary"
     },
     {
-        "question" : "From what book were the 116 pages of the lost manuscript translated?",
-        "options" : ["Omni","Lehi","1 Nephi","Moroni"],
-        "answer" : 1
+        "question" : "4. who was not a witness to the book of mormon",
+        "options" : ["David Withmer","Martin Harris","Emma Smith","Oliver Cowdery"],
+        "answer" : 1,
+        "track" : "Check the witness testimony"
     },
     {
-        "question" : "Besides Ether, who were the last two survivors of the Jaredite Nation?",
-        "options" : ["Coriantumr y Shiz","Coriantumr y Zoram","Shiz y Korihor","Shiz y Korihor"],
-        "answer" : 0
+        "question" : "5. Besides Ether, who were the last two survivors of the Jaredite Nation?",
+        "options" : ["Coriantumr y Shiz","Coriantumr y Zoram","Shiz y Korihor","Shiz y Zoram"],
+        "answer" : 0,
+        "track" : "Check Ether 15:29-30"
     },
     {
-        "question" : "Who compiled the golden plates?",
-        "options" : ["ALma","Nephi","Mormon","Moroni"],
-        "answer" :2
+        "question" : "6. Who compiled the golden plates?",
+        "options" : ["Alma","Nephi","Mormon","Moroni"],
+        "answer" : 2,
+        "track" : "Check the Title page of the Book Mormon"
     },
     {
-        "question" : " Cuantos libros tiene el libro de mormón?",
+        "question" : "7. Cuantos libros tiene el libro de mormón?",
         "options" : ["11","15","12","24"],
-        "answer" : 1
+        "answer" : 1,
+        "track" : "Check the Book of Mormon index"
     },
     {
-        "question" : "In which chapter is the vision that Lehi had of the tree of life found?",
+        "question" : "8. In which chapter is the vision that Lehi had of the tree of life found?",
         "options" : ["1 Nephi 1","Jacob 5","1 Nephi 8","Alma 15"],
-        "answer" : 2
+        "answer" : 2,
+        "track" : "Read each chapter if necessary"
     },
     {
-        "question" : "Which prophet repented upon hearing Abinadi's words?",
+        "question" : "9. Which prophet repented upon hearing Abinadi's words?",
         "options" : ["Alma","Amulek","Enos","Ammon"],
-        "answer" : 0
+        "answer" : 0,
+        "track" : "Check Mosiah 17"
     },
     {
-        "question" : "Who was left mute as a sign of God's power?",
+        "question" : "10. Who was left mute as a sign of God's power?",
         "options" : ["Nehor","Zeezrom","Gadianton","Korihor"],
-        "answer" : 3
+        "answer" : 3,
+        "track" : "Check Alma 30"
     }
 ]

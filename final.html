@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Juego de Trivia</title>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles/finalmain.css">
 </head>
 <body>
-    <h1>Juego de Trivia</h1>
+    <h1>Questions about the book of mormon</h1>
 
     <div id="question-container">
-        <h2>Pregunta:</h2>
+        <h2>Question:</h2>
         <p id="question-text"></p>
     </div>
 
     <div id="options-container">
-        <h3>Opciones:</h3>
+        <h3>Options:</h3>
         <ul id="options-list">
+            >
             <!-- Aquí se mostrarán las opciones de respuesta -->
         </ul>
     </div>
 
-    <button id="next-button">Siguiente Pregunta</button>
+    <button class="button1" id="prev-button">Previous Question</button>
+    <button class="button2" id="next-button">Next Question</button>
+
+    <p>Score: <span id = "score"></span></p>
+    <p id="result-label" style="display: none; color: green;"></p>
+    <p class="hint"></p>
+    <p class="error-label"></p>
 
     <script src="scripts/finalScript.js"></script>
 </body>
