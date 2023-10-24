@@ -59,25 +59,27 @@ function displayQuestion() {
 
 let answered = false;
 
+
+let lastIncorrectQuestion = -1; 
+let lastAnsweredQuestion = -1;
+
 function checkAnswer(selectedOption) {
     const currentQuestion = triviaData[currentQuestionIndex];
     const resultLabel = document.querySelector("#result-label");
     const hintLabel = document.querySelector(".hint");
     
-    if (!answered)
-    {
-        
+    if (currentQuestionIndex !== lastAnsweredQuestion) {
         if (selectedOption === currentQuestion.answer) {
-            resultLabel.textContent = "Correct Answer!"
-            resultLabel.style.display = "block"
-            hintLabel.style.display ="none";
+            resultLabel.textContent = "Correct Answer!";
+            resultLabel.style.display = "block";
+            hintLabel.style.display = "none";
             score++;
-            
         } else {
             resultLabel.textContent = `Wrong answer, the correct answer is: ${currentQuestion.options[currentQuestion.answer]}`;
             resultLabel.style.display = "block";
             hintLabel.textContent = `Track: ${currentQuestion.track}`;
             hintLabel.style.display = "block";
+            lastIncorrectQuestion = currentQuestionIndex; 
         }
         answered = true;
         updateScore();
@@ -85,10 +87,10 @@ function checkAnswer(selectedOption) {
         resultLabel.textContent = "You already answered this question";
         resultLabel.style.display = "block";
         hintLabel.style.display = "none";
-        answered = false;
     }
-    
+    lastAnsweredQuestion = currentQuestionIndex; 
 }
+
 
 function nextQuestion() {
     answered = false;
