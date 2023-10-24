@@ -14,13 +14,13 @@
     {
         "question" : "3. What is the longest chapter in the Book of Mormon?",
         "options" : ["Jacob 5","2 Nephi 31","Omni 1","Alma 63"],
-        "answer" : 1,
+        "answer" : 0,
         "track" : "Read each chapter if necessary"
     },
     {
-        "question" : "4. who was not a witness to the book of mormon",
+        "question" : "4. Who was not a witness to the book of mormon",
         "options" : ["David Withmer","Martin Harris","Emma Smith","Oliver Cowdery"],
-        "answer" : 1,
+        "answer" : 2,
         "track" : "Check the witness testimony"
     },
     {
